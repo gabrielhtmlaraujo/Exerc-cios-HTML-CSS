@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospedagem de video</title>
+</head>
+<body>
+    <h1>Hospedagem de video</h1>
+    <p>Vou hospedar esse video no meu próprio servidor</p>
+    <p>Usar a tag <code>video</code> com o <code>width</code> "500", usar a tag <code>source src </code> para colocar os formatos diferentes dos videos. Colocar <code>controls</code> e colocar <code>poster=capa</code>. Colocar também o <code>type</code> do vídeo.</p>
+    <hr>
+    <video width="500" controls poster="midia/capa (1).jpg">
+       <source src="midia/video-mkv.mkv" type="video/mp4">
+       <source src="midia/video-mp4.mp4" type="video/mp4">
+       <source src="midia/video-ogv.ogv" type="video/ogv">
+       <source src="midia/video-webm.mkv" type="video/mkv">
+       <source src="midia/video-webm.mkv" type="video/webm">
+    </video>
+    <p>Agora a hospedagem será de dentro do <strong>YouTube</strong></p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/8TnNaZZWhY4?si=s7iQmddco9p1h7Mw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+</html>

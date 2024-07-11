@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tag pictures</title>
+</head>
+<body>
+    <h1>Para usar a tag pictures, <code>"'picture e depois 'media'"</code>, aumentar e diminuir tamanho</h1>
+    <picture>
+        <source media="(max-width: 35px )" srcset="Imagem/foto-p" type="image/png">
+        <source media="(max-width: 1050px)" srcset="Imagem/foto-m.png" type="image/png">
+       <img src="Imagem/foto-g.png" alt="Foto flexivel">
+    </picture>
+    <h1>Explicação</h1>
+    <p>Tem que colocar a tag <code>picture</code>, e dentro dela vai os três tamanhos de imagens, a imagem principal é posta usando a tag <code>img</code>, e as outras duas são postas usando a tag <code>source-media-type</code>. O <code>media</code> colocamos <code>max-width: <abbr title="Valor a ser mudado">1050px</abbr></code>, e o type é <abbr title="Colocar o formato da foto depois da barra">imagem/png</abbr></p>
+    <h2>Colocando áudios</h2>
+    <p>Usar a tag <code>audio</code>, depois <code>controls</code> e depois <code>autoplay</code></p>
+    <audio src="midia/mepapa.mp3" controls autoplay></audio>
+</body>
+</html>

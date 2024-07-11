@@ -1,0 +1,41 @@
+@charset "UTF-8";
+body {
+    @import url('https://fonts.googleapis.com/css2?family=Honk&family=Libre+Barcode+128+Text&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Sedan:ital@0;1&display=swap');
+
+    background-color: rgb(154, 252, 154);
+    p {
+     @import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+128+Text&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+     @import url('https://fonts.googleapis.com/css2?family=Honk&family=Libre+Barcode+128+Text&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Sedan:ital@0;1&family=Seymour+One&display=swap');
+
+     font-family: "Libre Barcode 128 Text", system-ui;
+     font-weight: 400;
+     font-style: italic;
+     background-color: rgb(164, 212, 116);
+    }
+  h1 {
+ font-family: 'Times New Roman', Times, serif;
+ font-size: 3em;
+ font-weight: bolder;
+ font-style: normal;
+ color: darkgreen;
+ background-color: chartreuse;
+
+
+ }
+ h2 {
+
+    .libre-barcode-128-text-regular {
+        font-family: "Libre Barcode 128 Text", system-ui;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+      
+      
+      
+      
+      }
+      
+ }
+
